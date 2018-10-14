@@ -1,0 +1,67 @@
+body {
+	margin-top: 30px;
+	background: #f7f1e3;
+	font-family: "Courier New", Courier, monospace;
+}
+h1 {
+	text-align: center;
+	margin-bottom: 50px;
+	text-decoration: underline;
+	letter-spacing: 3px;
+}
+#digital {
+	font-size: 2em;
+	text-align: center;
+}
+
+#watch {
+	width: 350px;
+	height: 350px;
+	background-color: #d1ccc0;
+	border: 3px solid #000;
+	border-radius: 50%;
+	box-shadow: 0 0 10px 0 black;
+	position: relative;
+	margin: 30px auto;
+}
+
+#hours {
+	width: 5px;
+	height: 25%;
+	background-color: red;
+	transform-origin: 50% 80%;
+	position: absolute;
+	top: 30%;
+	left: calc(50% + -2px);
+}
+
+#minutes {
+	width: 3px;
+	height: 40%;
+	background-color: blue;
+	transform-origin: 50% 80%;
+	position: absolute;
+	top: 18%;
+	left: calc(50% - 1px);
+}
+
+#seconds {
+	width: 1px;
+	height: 50%;
+	background-color: black;
+	transform-origin: 50% 80%;
+	position: absolute;
+	top: 10%;
+	left: 50%;
+}
+#date {
+	text-align: center;
+	font-size: 2em;
+}
+footer {
+	margin-top: 50px;
+	text-align: center;
+}
+footer a:hover {
+	color: red;
+}
